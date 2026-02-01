@@ -1,4 +1,4 @@
 let email = sessionStorage.getItem("email");
 if (!email){
-    window.location = "../log_in.html"
+    window.location = "./KFC/log_in.html"
 }
