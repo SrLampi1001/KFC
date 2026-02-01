@@ -7,7 +7,7 @@ document.getElementById("btn-submit").addEventListener("click", (e)=>{
     if (password_input.value == correct_password && correct_email == email_input.value){
         // Functionality
         sessionStorage.setItem("email", email_input);
-        window.location = "../index.html";
+        window.location = "./index.html";
     } else{
         password_input.value = "";
         message = document.createElement("span"); message.textContent = "La contraseña o correo incorrecto";
